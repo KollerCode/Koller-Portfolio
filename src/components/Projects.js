@@ -1,62 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import { form } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 
-function Projects({ onAddToDo }) {
-        const [description, setDescription] = useState("");
-
-        function handleSubmit(e) {
-          e.preventDefault();
-          const apiDataForTodo = {
-              description: description,
-              completed: false,
-              urgent: false,
-              wait: false,
-          };
-          // persist todo on server
-           fetch("http://localhost:4000/todos", {
-             method: "POST",
-             headers: {
-               "Content-Type": "application/json",
-             },
-             body: JSON.stringify(apiDataForTodo),
-           })
-             .then((r) => r.json())
-             .then((data) => onAddToDo(data));
-          // then use onAddTodo to add todo to state
-        }
-    return (
-      <div className="form">
-        <h1>Task Lister</h1>
-        {/* <NewToDo onAddTodo={addToDo} /> */}
-        {/* <TodoList
-            todos={todos}
-            onDeleteTodo={deleteTodo}
-            onUpdateTodo={updateTodo}
-          /> */}
-        <form onSubmit={handleSubmit}>
-          <div class="form-group row">
-            <label
-              for="colFormLabelLg"
-              class="col-sm-2 col-form-label col-form-label-lg">
-              What tasks do you have to accomplish?
-            </label>
-            <div class="col-sm-10">
-              <input
-                type="text"
-                class="form-control form-control-lg"
-                id="colFormLabelLg"
-                value={description}
-                placeholder="Tisk, Task, Type here!"
-                onChange={(e) => setDescription(e.target.value)}
-              />
-            </div>
-            <button type="submit" class="btn btn-primary">
-              Add Task
-            </button>
-          </div>
-        </form>
-         {/* <h3>What makes this app different</h3>
+function Projects() {  
+       
+  return (
+      <div>
+         <h3>What makes this app different</h3>
           <p>
             This app was made by someone, <em>aka me</em>, who has struggled
             with ADHD and knows what works and what doesn't when it comes to
@@ -115,9 +65,8 @@ function Projects({ onAddToDo }) {
             for a all to communicate as well as a calendar and more advanced
             features.
           </li>
-        </div> */}
-      </div>
-    );
+    </div> 
+  )
 }
 
 export default Projects;
