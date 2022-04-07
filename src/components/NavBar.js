@@ -10,7 +10,7 @@ function NavBar() {
       <LinkContainer to="/">
        <Navbar.Brand className="brand">
           <img
-            id="brain"
+            id="icon"
             src={NK}
             width="100"
             height="100"

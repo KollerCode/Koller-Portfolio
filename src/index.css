@@ -5,25 +5,58 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FAE1DD;
+  background-color: black;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    /* font-family: 'Fira Code', monospace;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Righteous', cursive;
+font-family: 'Ubuntu Mono', monospace; */
 }
 
 /* div.home{
   color: #D8E2DC;
 } */
 
-div.main{
+div.home{
     display: flex;
     justify-content: center;
+    -webkit-box-align: center;
     flex-direction: column;
     align-items: flex-start;
+    -webkit-box-pack: center;
     min-height: 100vh;
+     margin: 0px auto;
+    padding: 100px 0px;
+    max-width: 1000px;
 }
+
+p.intro{
+  font-family: 'Fira Code', monospace;
+  color:#eb16c7
+}
+
+h1.name{
+  font-family: 'Major Mono Display', monospace;
+  font-size: 100px;
+  color:#f9f1f8
+  
+}
+
+h2.title{
+   font-family: 'Righteous', cursive;
+   color: #f3a3f7
+}
+
+h4.tagline{
+  font-family: 'Fira Code', monospace;
+  color: #ebabe1;
+}
+   
 div.right {
     width: 40px;
     position: fixed;
@@ -40,4 +73,21 @@ div.left {
     left: 40px;
     right: auto;
     z-index: 10;
+  }
+
+  a.nav-link{
+    font-family: 'Righteous', cursive;
+    
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+  color: #eb16c7;
+  }
+
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color:#ebabe1
+  }
+
+  img#icon.d-inline-block.align-top{
+    border-radius: 50%;
   }
