@@ -1,11 +1,10 @@
 import React from "react";
-import About from "./About";
 
 function Home() {
     
 return (
     <div className="home">
-        <About />
+      <p>Hello</p>
     </div>
 );
 }
