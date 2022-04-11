@@ -1,6 +1,8 @@
 import React from "react";
 import { form } from "react-bootstrap";
 import { Button } from "react-bootstrap";
+import maybelline from "../images/maybelline.png"
+import cortadito from "../images/cortadito1.png"
 
 function Projects() {  
        
@@ -72,11 +74,8 @@ function Projects() {
           Task Lister
         </a>
         <p>
-          ADHD brains are tricky and often times we have different needs at
-          different times. This app was made with those needs in mind.{" "}
-          <b>
-            Even the colors chosen are are meant to stimulate the ADHD brain!
-          </b>
+          Simple tasklister made with ascending and descing svg buttons, popups, popovers,
+          react-bootstrap elements etc.
         </p>
         <p>
           Technology used: Bootstrap, React Router v6, React.js, Javascript,
@@ -91,12 +90,11 @@ function Projects() {
         <a href="https://devpost.com/software/cortadito?fbclid=IwAR3mQLw9k4sQeb_4ldEzlUXAm6sVI4FXSGzwH36lyaSppZ1URBtHl5xRyi0">
           DevPost Hackathon Link
         </a>
+        <img
+          src={cortadito} />
         <p>
-          ADHD brains are tricky and often times we have different needs at
-          different times. This app was made with those needs in mind.{" "}
-          <b>
-            Even the colors chosen are are meant to stimulate the ADHD brain!
-          </b>
+          Won the Microsoft challenge to help the people of Miami and solve a problem for the 
+          TechTogether Miami Hackathon. 
         </p>
         <p>
           Technology used: Bootstrap, React Router v6, React.js, Javascript,
@@ -114,15 +112,15 @@ function Projects() {
         <a href="https://devpost.com/software/cortadito?fbclid=IwAR3mQLw9k4sQeb_4ldEzlUXAm6sVI4FXSGzwH36lyaSppZ1URBtHl5xRyi0">
           DevPost Hackathon Link
         </a>
-        <p>
+        <img
+          className="cortadito"
+          src={maybelline} />
+        {/* <p>
           ADHD brains are tricky and often times we have different needs at
           different times. This app was made with those needs in mind.{" "}
-          <b>
-            Even the colors chosen are are meant to stimulate the ADHD brain!
-          </b>
-        </p>
+        </p> */}
         <p>
-          Technology used: Bootstrap, React Router v6, React.js, Javascript,
+          Technology used: Javascript,
           HTML, custom CSS.
         </p>
       </div>
