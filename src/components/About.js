@@ -9,19 +9,37 @@ function About() {
           <h4>Natasha Koller aka @KollerCode</h4>
           <img className="aboutpic" src={natasha} alt="natasha"></img>
           <p>
-            Natasha is a jack of all trades. Holding a Master's in International
-            Education and an undergraduate degree in Anthropology and music. She
-            is always looking for a challenge and has traveled around the world
-            picking up various languages along the way. Coding is her newest
-            passion and she feels like she is finally where she belongs. She has
-            is a diversity champion and loves to meet other latinx in tech as
-            well as a big supporter of embracing mental health and knowing when
-            to get help. Natasha also loves to teach and help others as it is a
-            great way to learn as well. She teaches Lua (video game dev) to
-            children for Roblox on the weekends. Her biggest passion is UI
-            design and she aspires to be a UI developer/Front-end Developer. She
-            is currently #opentowork and contributing to projects and can be
-            contacted at the links below.
+            Hey there! People refer to me as a jack of all trades. Mostly
+            because I have always excelled in anything I've set my mind to.I love a challenge and have traveled
+            around the world picking up various languages along the way. My many
+            years of experience working abroad have allowed me the opportunity
+            to pick up a variety skills. I have worked in various
+            industries and many skills that transfer. Most recently I have worked in the field of
+            international education where I spent my time working with documents
+            and assisting students making their dream of studying in America a
+            reality. The one aspect of all of my careers that has always been
+            vital has been working with computers. I have had to design, create,
+            troubleshoot (even in Korean!), and I've never realized how central
+            IT has become in my day- to-day life. I played with code during my
+            WordPress travel blogging days, but never on a serious level to make
+            a career out of it.
+            Coding is my newest passion and I feel like
+            I am finally where I belong.
+            </p>
+            <p>I am also a diversity champion
+            and love to meet other latinx in tech as well as a big supporter of
+            embracing mental health and knowing when to get help. I also
+            love to teach and help others as it is a great way to learn as
+            well. I teach Lua (video game dev) to children for Roblox on the
+            weekends. However <strong>my  biggest passion is UI design and I aspire to be a
+            UI developer/Front-end Developer.</strong> I am currently #opentowork and
+            contributing to projects and can be contacted at the links below.
+            People refer to me as the jack of all trades.
+          </p>
+          <p>
+            Lifelong learning is important to me, and I believe that we should
+            always be reinventing ourselves. I want to see how far I will go and
+            just how much I can create with my new coding skills.
           </p>
           <p>
             <a href="https://github.com/KollerCode" className="aboutlink">
