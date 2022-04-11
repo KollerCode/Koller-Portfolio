@@ -4,7 +4,7 @@ function Footer() {
   return(
 <div class="footer">
   <small>
-    &copy; Copyright, <strong>CORTADITO </strong>, 2022
+    &copy; Copyright, <strong>NK </strong>, 2022
   </small>
     </div>
   )

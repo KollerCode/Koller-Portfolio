@@ -12,6 +12,7 @@ import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects"
 import NavBar from "./components/NavBar";
+import Toggle from "./components/Toggle";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Router>
         <div>
           <header>
+            {/* <Toggle /> */}
             <NavBar />
           </header>
           <Routes>
@@ -32,7 +34,7 @@ function App() {
             <Route path="/resume" element={<Resume />} />
           </Routes>
           <footer>
-            <Footer />
+            {/* <Footer /> */}
           </footer>
         </div>
       </Router>
