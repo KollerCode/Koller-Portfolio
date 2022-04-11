@@ -35,6 +35,26 @@ div.home{
     max-width: 1000px;
 }
 
+div.about-me{
+	font-family: 'Ubuntu Mono', monospace;
+	color:#eb16c7
+}
+
+div.projects{
+	font-family: 'Ubuntu Mono', monospace;
+	color:#eb16c7;
+	align-content: center;
+	text-align: center;
+}
+
+img.cortadito-img{
+	width: 50%;
+}
+
+img.maybelline-img{
+	width: 75%;
+}
+
 p.intro{
   font-family: 'Fira Code', monospace;
   color:#eb16c7
@@ -73,8 +93,22 @@ div.left {
     left: 40px;
     right: auto;
     z-index: 10;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    min-height: 70px;
+    padding: 15px;
+    flex-direction: column;
   }
-
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
   a.nav-link{
     font-family: 'Righteous', cursive;
     

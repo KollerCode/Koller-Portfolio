@@ -7,7 +7,7 @@ import cortadito from "../images/cortadito1.png"
 function Projects() {  
        
   return (
-    <div>
+    <div className="projects">
       <div>
         <h3>I Can ADHD</h3>
         <a
@@ -91,7 +91,7 @@ function Projects() {
           DevPost Hackathon Link
         </a>
         <img
-          src={cortadito} />
+          src={cortadito} className="cortadito-img"/>
         <p>
           Won the Microsoft challenge to help the people of Miami and solve a problem for the 
           TechTogether Miami Hackathon. 
@@ -113,7 +113,7 @@ function Projects() {
           DevPost Hackathon Link
         </a>
         <img
-          className="cortadito"
+          className="maybelline-img"
           src={maybelline} />
         {/* <p>
           ADHD brains are tricky and often times we have different needs at
