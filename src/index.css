@@ -37,7 +37,8 @@ div.home{
 
 div.about-me{
 	font-family: 'Ubuntu Mono', monospace;
-	color:#eb16c7
+	color:#eb16c7;
+	text-align:center;
 }
 
 div.projects{
@@ -111,6 +112,7 @@ ul {
 }
   a.nav-link{
     font-family: 'Righteous', cursive;
+	font-size: 30px;
     
   }
 
@@ -126,6 +128,15 @@ ul {
     border-radius: 50%;
   }
 
+  .carousel{
+	  width:50%;
+	  left: 360px;
+  }
+h3.designer{
+	  color:black;
+	  background-color:#ebabe1;
+	  border-radius: 50%;
+  }
   /* toggle
   label.theme{
     float: right;
