@@ -1,23 +1,28 @@
 import React from "react";
-import { Button, Carousel, CarouselItem, Caption } from "react-bootstrap"
+import { Button, Carousel, CarouselItem, Caption, Container } from "react-bootstrap"
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import design from "../images/design.png"
 import devgirl from "../images/devgirl.jpg"
+import engineer from "../images/ux-engineer.png"
 
 function Home() {
     
   return (
     <div>
-      <div className="home">
+      <Col lg="8" className="home">
         <p className="intro">Hi, my name is</p>
         <h1 className="name">Natasha Koller</h1>
-        <h2 className="title">Designer, Front-end Developer, & Teacher </h2>
+        <h2 className="title">
+          UX/UI Engineer, Accessibility & Diversity Chamption, & Teacher{" "}
+        </h2>
         <h4 className="tagline">
-          I make beautiful and responsive websites and love creating media and
+          I create beautiful and responsive websites and love creating media and
           projects to satisfy my clients to the fullest!
         </h4>
         <br></br>
         <br></br>
-      </div>
+      </Col>
       <div className="left">
         <ul>
           <Button href="https://github.com/KollerCode/">
@@ -63,10 +68,22 @@ function Home() {
       <Carousel>
         <Carousel.Item>
           <img
-            className="d-block w-100"
-            src={ design }
-            alt="First slide"
+            className=" w-100 h-200"
+            src={engineer}
+            alt="people working together"
           />
+
+          <Carousel.Caption>
+            <h3 className="designer">UI/UX Engineer</h3>
+            <p>
+              Accessibility champion with experience in prototyping and
+              wireframing. Organized, designed design systems, developer
+              guidelines.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className=" w-100" src={design} alt="First slide" />
           <Carousel.Caption>
             <h3 className="designer">Designer</h3>
             <p>
@@ -75,45 +92,26 @@ function Home() {
               UI, Web, Apps, Logos, and custom art{" "}
             </p>
             <p>
-              {" "}
-              Design Tools: Figma, Canva, , Pen & Paper, canvas, watercolor and
+              Design Tools: Figma, Canva, Lottie, Pen & Paper, canvas, watercolor and
               mixed media.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={devgirl}
-            alt="Second slide"
-          />
+          <img className="w-100" src={devgirl} alt="Second slide" />
           <Carousel.Caption>
-            <h3>Front-end Developer</h3>
+            <h3 className="designer">Front-end Developer</h3>
             <p>
               I like to create custom code and enjoy making custom CSS elements.
-              I love experiementing and seeing how far I can take my ideas and make 
-              them possible on the browser!
-              life in the browser.</p>
-              <p> Languages I can code: HTML, CSS, React.Js, some SCSS
-               Dev Tools: Bootstrap, react-router v6, NPM, Linux 
-              Codepen, Github, Terminal
+              I love experiementing and seeing how far I can take my ideas and
+              make them possible on the browser! life in the browser.
+            </p>
+            <p>
+              Languages I can code: Angular, React.js HTML, CSS, SCSS Dev Tools:
+              Bootstrap, react-router v6, NPM, Codepen, Github, Jira
             </p>
           </Carousel.Caption>
         </Carousel.Item>
-        {/* <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item> */}
       </Carousel>
     </div>
   );

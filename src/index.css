@@ -29,10 +29,8 @@ div.home{
     flex-direction: column;
     align-items: flex-start;
     -webkit-box-pack: center;
-    min-height: 100vh;
      margin: 0px auto;
     padding: 100px 0px;
-    max-width: 1000px;
 }
 
 div.about-me{
@@ -58,7 +56,8 @@ img.maybelline-img{
 
 p.intro{
   font-family: 'Fira Code', monospace;
-  color:#eb16c7
+  color:#eb16c7;
+  margin-left: -50px;
 }
 
 h1.name{
@@ -129,14 +128,25 @@ ul {
   }
 
   .carousel{
-	  width:50%;
-	  left: 360px;
+	width:50%;
+	left: 360px;
   }
 h3.designer{
-	  color:black;
-	  background-color:#ebabe1;
-	  border-radius: 50%;
-  }
+	color:black;
+	background-color:#ebabe1;
+}
+
+.carousel-caption{
+	background-color: #ffffff;
+	color: #000;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-radius: 10%;
+}
+
+.carousel{
+	padding-bottom: 50px;
+}
   /* toggle
   label.theme{
     float: right;
