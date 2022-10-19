@@ -1,10 +1,12 @@
 import React from "react";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import natasha from "../images/natasha.jpg"
 
 function About() {
     return (
-      <div className="about">
-        <div className="about-me">
+      <Row className="about justify-content-center">
+        <Col lg="9" className="about-me">
           <h3>About the creator</h3>
           <h4>Natasha Koller aka @KollerCode</h4>
           <img className="aboutpic" src={natasha} alt="natasha"></img>
@@ -63,17 +65,8 @@ function About() {
           <a href="https://dev.to/kollercode" className="aboutlink">
             https://dev.to/kollercode
           </a>{" "}
-        </div>
-        <p>
-          Sources:
-          <a href="https://chadd.org/about-adhd/overview/">
-            https://chadd.org/about-adhd/overview/
-          </a>
-          <a href="https://www.cdc.gov/ncbddd/adhd/facts.html">
-            https://www.cdc.gov/ncbddd/adhd/facts.html
-          </a>
-        </p>
-      </div>
+        </Col>
+      </Row>
     );  
 }
 

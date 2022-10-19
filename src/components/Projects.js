@@ -1,6 +1,8 @@
 import React from "react";
-import { form } from "react-bootstrap";
+import { Container, form } from "react-bootstrap";
 import { Button } from "react-bootstrap";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import maybelline from "../images/maybelline.png"
 import cortadito from "../images/cortadito1.png"
 
@@ -8,7 +10,8 @@ function Projects() {
        
   return (
     <div className="projects">
-      <div>
+      <Row className="about justify-content-center">
+        <Col lg="9" className="about-me">
         <h3>I Can ADHD</h3>
         <a
           href="https://app.netlify.com/sites/i-can-adhd/overview"
@@ -23,24 +26,26 @@ function Projects() {
             Even the colors chosen are are meant to stimulate the ADHD brain!
           </b>
         </p>
-        <h4>Let's look at some of the unique features!</h4>
-        <ul>
-          <li>
-            <b>The fidget spinner</b> below the navigation bar is for those
-            times when you forgot a thought and need a moment to pause and
-            reflect. Or, just have a fidget moment and want to click something
-            fun.
-          </li>
-          <li>
-            <b>The brain dump feature</b> is SUPER important! It is for all
-            those thoughts you have throughout the day that you don't want to
-            forget. Whether it be an awesome insiration driven idea, or just a
-            reminder.
-          </li>
-          <li>
-            <b>Then of course we have our task lister</b>, which has two KEY
-            parts:
-            <ul>
+          <h4>Let's look at some of the unique features!</h4>
+          <Row>
+            <Col lg="12" className="list">
+              <ul>
+              <li>
+                <b>The fidget spinner</b> below the navigation bar is for those
+                times when you forgot a thought and need a moment to pause and
+                reflect. Or, just have a fidget moment and want to click something
+                fun.
+              </li>
+              <li>
+                <b>The brain dump feature</b> is SUPER important! It is for all
+                those thoughts you have throughout the day that you don't want to
+                forget. Whether it be an awesome insiration driven idea, or just a
+                reminder.
+              </li>
+              <li>
+              <b>Then of course we have our task lister</b>, which has two KEY
+              parts:
+              <ul>
               <li>
                 One is the <b>star button</b> which, when clicked, is to{" "}
                 <u>
@@ -56,9 +61,12 @@ function Projects() {
                 important, but that don't necessarily have to be completed
                 today. <u>They can be left for tomorrow or even next week.</u>
               </li>
-            </ul>
-          </li>
-        </ul>
+                </ul>
+              </li>
+              </ul>
+            </Col>
+          </Row>
+        
         <li>
           In the future it is the hopes that there will be a community space for
           a all to communicate as well as a calendar and more advanced features.
@@ -67,8 +75,6 @@ function Projects() {
           Technology used: Figma, Bootstrap, React Router v6, React.js,
           Javascript, HTML, custom CSS.
         </p>
-      </div>
-      <div>
         <h3>Task Lister</h3>
         <a href="https://koller-to-do.netlify.app/" className="tasks-title">
           Task Lister
@@ -81,8 +87,6 @@ function Projects() {
           Technology used: Bootstrap, React Router v6, React.js, Javascript,
           HTML, custom CSS.
         </p>
-      </div>
-      <div>
         <h3>Cortadito</h3>
         <a href="https://github.com/tbenis/cortadito" className="tasks-title">
           Github
@@ -100,8 +104,6 @@ function Projects() {
           Technology used: Bootstrap, React Router v6, React.js, Javascript,
           HTML, custom CSS.
         </p>
-      </div>
-      <div>
         <h3>Maybelline Shopping Project</h3>
         <a
           href="https://github.com/KollerCode/Shopping-Project"
@@ -123,7 +125,8 @@ function Projects() {
           Technology used: Javascript,
           HTML, custom CSS.
         </p>
-      </div>
+        </Col>
+      </Row>
     </div>
   );
 }

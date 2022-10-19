@@ -5,8 +5,8 @@ function Resume() {
   // const [spin,setSpin] = useState(0)
  
   return (
-    <div>
-      <p>resume</p>
+    <div className="resume">
+      <a href="kollernatasha@gmail.com">Resume available upon request</a>
       {/* <img 
          className="spinner-image"
          src={SpinnerIcon}

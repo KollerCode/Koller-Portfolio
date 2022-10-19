@@ -54,6 +54,9 @@ img.maybelline-img{
 	width: 75%;
 }
 
+a:hover{
+	color: #fff;
+}
 p.intro{
   font-family: 'Fira Code', monospace;
   color:#eb16c7;
@@ -123,6 +126,10 @@ ul {
     color:#ebabe1
   }
 
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: #fff;
+  }
+
   img#icon.d-inline-block.align-top{
     border-radius: 50%;
   }
@@ -146,6 +153,14 @@ h3.designer{
 
 .carousel{
 	padding-bottom: 50px;
+}
+
+.resume{
+	font-size: 30px;
+}
+
+.list{
+	justify-content: flex-start;
 }
   /* toggle
   label.theme{
