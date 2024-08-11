@@ -2,22 +2,21 @@ import react from "react";
 import { Navbar, Nav, NavbarBrand, Button } from "react-bootstrap";
 // import { NavLink } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
-import NK from "../images/NK.gif"
+import logo from "../images/logo.svg"
 
 function NavBar() {
   return (
     <Navbar className="nav-bar">
       <LinkContainer to="/">
-       <Navbar.Brand className="brand">
+       <NavbarBrand className="brand pl-3">
           <img
             id="icon"
-            src={NK}
-            width="100"
-            height="100"
-            class="d-inline-block align-top"
+            src={logo}
+            width="63"
+            height="36"
             alt=""
           />
-        </Navbar.Brand> 
+        </NavbarBrand> 
       </LinkContainer>
       <Nav className="mr-auto" style={{ marginLeft: "auto", paddingRight: 40 }}>
         <LinkContainer to="/">
@@ -40,13 +39,11 @@ function NavBar() {
             <strong>Contact</strong>
           </Nav.Link>
         </LinkContainer>
-        <Button>
         <LinkContainer to="resume">
           <Nav.Link>
             <strong>Resume</strong>
           </Nav.Link>
         </LinkContainer>
-        </Button>
       </Nav>
     </Navbar>
   );

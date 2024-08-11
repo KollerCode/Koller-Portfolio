@@ -65,54 +65,7 @@ function Home() {
           </Button>
         </ul>
       </div>
-      <Carousel>
-        <Carousel.Item>
-          <img
-            className=" w-100 h-200"
-            src={engineer}
-            alt="people working together"
-          />
-
-          <Carousel.Caption>
-            <h3 className="designer">UI/UX Engineer</h3>
-            <p>
-              Accessibility champion with experience in prototyping and
-              wireframing. Organized, designed design systems, developer
-              guidelines.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className=" w-100" src={design} alt="First slide" />
-          <Carousel.Caption>
-            <h3 className="designer">Designer</h3>
-            <p>
-              I enjoy creating alluring design patterns while keeping in mind
-              the user experience and intended audience. I enjoy creating: UX,
-              UI, Web, Apps, Logos, and custom art{" "}
-            </p>
-            <p>
-              Design Tools: Figma, Canva, Lottie, Pen & Paper, canvas,
-              watercolor and mixed media.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="w-100" src={devgirl} alt="Second slide" />
-          <Carousel.Caption>
-            <h3 className="designer">Front-end Developer</h3>
-            <p>
-              I like to create custom code and enjoy making custom CSS elements.
-              I love experiementing and seeing how far I can take my ideas and
-              make them possible on the browser! life in the browser.
-            </p>
-            <p>
-              Languages I can code: Angular, React.js HTML, CSS, SCSS Dev Tools:
-              Bootstrap, react-router v6, NPM, Codepen, Github, Jira
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+          
     </div>
   );
 }
