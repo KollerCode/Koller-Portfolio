@@ -42,29 +42,29 @@ const SKILLS = [
 
 const PROJECTS = [
   {
-    title: "Hive Wright Apiary Services",
+    title: "Hive Wright Apiary Services Startup",
     category: "Brand and product design, full service",
     year: "2026",
     desc: "Built a luxury product brand for a startup company. It included market research, color exploration, and logo monogram experimentation. Once brand was identified physical labels created and full scale responsive web design.",
-    tags: ["React", "Photoshop", "Figma", "AI"],
+    tags: ["React", "Figma Make", "Logo", "Branding", "Typography"],
     img: "src/assets/HW-promo.png",
   },
-  // {
-  //   title: "FinTech Mobile Redesign",
-  //   category: "UI/UX Design · AI-Assisted",
-  //   year: "2024",
-  //   desc: "End-to-end redesign of a FinTech app's onboarding and dashboard. Iterated in real time using Figma Make and Claude for rapid concept validation.",
-  //   tags: ["Figma Make", "Claude", "User Research", "Angular"],
-  //   img: "https://images.unsplash.com/photo-1720962158813-29b66b8e23e1?w=800&h=500&fit=crop&auto=format",
-  // },
-  // {
-  //   title: "Solstice Brand Identity",
-  //   category: "Branding & Identity",
-  //   year: "2023",
-  //   desc: "Full brand identity for a boutique wellness studio. Logo, type system, color palette, brand guidelines, and print collateral.",
-  //   tags: ["Logo", "Brand System", "Typography", "Print"],
-  //   img: "https://images.unsplash.com/photo-1597979732130-9d2ad18df38b?w=800&h=500&fit=crop&auto=format",
-  // },
+  {
+    title: "Tideturners Redesign",
+    category: "UI/UX Design · AI-Assisted",
+    year: "2025",
+    desc: "Developed foundational design system components in 2024 and enhanced the Available Games experience by implementing a toggle that allows users to easily switch between this company’s latest releases and featured game titles.",
+    tags: ["Figma", "ChatGPT", "React"],
+    img: "src/assets/tideturners.png",
+  },
+  {
+    title: "Solstice Brand Identity",
+    category: "Branding & Identity",
+    year: "2023",
+    desc: "Full brand identity for a boutique wellness studio. Logo, type system, color palette, brand guidelines, and print collateral.",
+    tags: ["Logo", "Brand System", "Typography", "Print"],
+    img: "https://images.unsplash.com/photo-1597979732130-9d2ad18df38b?w=800&h=500&fit=crop&auto=format",
+  },
 ];
 
 const PROCESS_STEPS = [
@@ -382,7 +382,7 @@ export default function App() {
             </motion.h2>
           </div>
           <motion.span {...fadeUp(0.1)} className="font-mono text-xs text-muted-foreground hidden sm:block">
-            2023–2024
+            2021–2026
           </motion.span>
         </div>
 
