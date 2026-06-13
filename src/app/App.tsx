@@ -47,7 +47,7 @@ const PROJECTS = [
     year: "2026",
     desc: "Full brand identity for an Apiary Service catered to the luxury hotel market. Logo, type system, color palette, brand guidelines, and print collateral including labels for the honey samples. Currently working on web development target GTM December 2026",
     tags: ["React", "Figma Make", "Logo", "Branding", "Typography"],
-    img: "src/assets/HW-promo.png",
+    img: "/src/assets/HW-promo.png",
   },
   {
     title: "Tideturners Redesign",
@@ -55,7 +55,7 @@ const PROJECTS = [
     year: "2025",
     desc: "Developed foundational design system components in 2024 and enhanced the Available Games experience by implementing a toggle that allows users to easily switch between this company’s latest releases and featured game titles.",
     tags: ["Figma", "ChatGPT", "React"],
-    img: "src/assets/tideturners.png",
+    img: "/src/assets/tideturners.png",
   },
   {
     title: "SaaS FinTech Corporate Website Design & Development",
@@ -63,7 +63,7 @@ const PROJECTS = [
     year: "2022 - 2026",
     desc: "Led UX/UI design and front-end implementation for key marketing and product-focused web experiences, including solution pages, AI-focused content, and platform feature presentations.",
     tags: ["Marketing Collateral", "Wireframe Designing", "Angular", "Brand Identity"],
-    img: "src/assets/rp.png",
+    img: "/src/assets/rp.png",
   },
 ];
 
