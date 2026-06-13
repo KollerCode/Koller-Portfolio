@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { motion } from "motion/react";
-import portraitImg from "../assets/Frame 4.svg";
-import processIllustration from "../assets/name.svg";
-import { NKLogo } from "./components/NKLogo";
+import portraitImg from "../assets/illustration.svg";
+import name from "../assets/name.svg";
+import nklogo from "../assets/logos.svg";
 
 
 const NAV_LINKS = [
@@ -128,7 +128,11 @@ export default function App() {
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 h-16 flex items-center justify-between">
           <button onClick={() => scrollTo("#hero")} className="hover:opacity-75 transition-opacity">
-            <NKLogo scale={0.85} />
+            <img
+                  src={nklogo}
+                  alt="Problem → Process → Solution"
+                  className="w-full max-w-[200px] opacity-90"
+                />
           </button>
 
           <div className="hidden md:flex items-center gap-8">
@@ -198,7 +202,11 @@ export default function App() {
           </motion.p>
 
           <motion.div {...fadeUp(0.08)} className="mb-8">
-            <NKLogo scale={3.2} />
+             <img
+                  src={name}
+                  alt="Problem → Process → Solution"
+                  className="w-full max-w-[200px] opacity-90"
+                />
           </motion.div>
 
           <motion.p
@@ -472,7 +480,7 @@ export default function App() {
                   AI in my workflow
                 </p>
                 <img
-                  src={processIllustration}
+                  src={portraitImg}
                   alt="Problem → Process → Solution"
                   className="w-full max-w-[200px] opacity-90"
                 />
