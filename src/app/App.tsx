@@ -42,29 +42,29 @@ const SKILLS = [
 
 const PROJECTS = [
   {
-    title: "Healthcare Design System",
-    category: "UI/UX Engineering",
-    year: "2024",
-    desc: "Built a scalable component library for a healthcare SaaS platform — tokens, components, documentation — cutting design-to-dev handoff time by 40%.",
-    tags: ["React", "Storybook", "Figma"],
-    img: "https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?w=800&h=500&fit=crop&auto=format",
+    title: "Hive Wright Apiary Services",
+    category: "Brand and product design, full service",
+    year: "2026",
+    desc: "Built a luxury product brand for a startup company. It included market research, color exploration, and logo monogram experimentation. Once brand was identified physical labels created and full scale responsive web design.",
+    tags: ["React", "Photoshop", "Figma", "AI"],
+    img: "src/assets/HW-promo.png",
   },
-  {
-    title: "FinTech Mobile Redesign",
-    category: "UI/UX Design · AI-Assisted",
-    year: "2024",
-    desc: "End-to-end redesign of a FinTech app's onboarding and dashboard. Iterated in real time using Figma Make and Claude for rapid concept validation.",
-    tags: ["Figma Make", "Claude", "User Research", "Angular"],
-    img: "https://images.unsplash.com/photo-1720962158813-29b66b8e23e1?w=800&h=500&fit=crop&auto=format",
-  },
-  {
-    title: "Solstice Brand Identity",
-    category: "Branding & Identity",
-    year: "2023",
-    desc: "Full brand identity for a boutique wellness studio. Logo, type system, color palette, brand guidelines, and print collateral.",
-    tags: ["Logo", "Brand System", "Typography", "Print"],
-    img: "https://images.unsplash.com/photo-1597979732130-9d2ad18df38b?w=800&h=500&fit=crop&auto=format",
-  },
+  // {
+  //   title: "FinTech Mobile Redesign",
+  //   category: "UI/UX Design · AI-Assisted",
+  //   year: "2024",
+  //   desc: "End-to-end redesign of a FinTech app's onboarding and dashboard. Iterated in real time using Figma Make and Claude for rapid concept validation.",
+  //   tags: ["Figma Make", "Claude", "User Research", "Angular"],
+  //   img: "https://images.unsplash.com/photo-1720962158813-29b66b8e23e1?w=800&h=500&fit=crop&auto=format",
+  // },
+  // {
+  //   title: "Solstice Brand Identity",
+  //   category: "Branding & Identity",
+  //   year: "2023",
+  //   desc: "Full brand identity for a boutique wellness studio. Logo, type system, color palette, brand guidelines, and print collateral.",
+  //   tags: ["Logo", "Brand System", "Typography", "Print"],
+  //   img: "https://images.unsplash.com/photo-1597979732130-9d2ad18df38b?w=800&h=500&fit=crop&auto=format",
+  // },
 ];
 
 const PROCESS_STEPS = [
