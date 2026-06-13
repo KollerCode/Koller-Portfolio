@@ -513,14 +513,14 @@ export default function App() {
             <em style={{ color: "var(--primary)" }}>something great</em>
           </motion.h2>
           <motion.p {...fadeUp(0.16)} className="text-muted-foreground text-lg max-w-md mx-auto mb-12 leading-relaxed">
-            Open to senior IC roles, freelance design and branding, and consulting engagements. Tampa-based, remote-friendly.
+            Open to UI/UX Design and Engineering roles, freelance design and branding, and consulting engagements. Tampa-based, remote-preferred.
           </motion.p>
           <motion.div {...fadeUp(0.22)} className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:natasha@nkdesign.io"
+              href="mailto:kollernatasha@gmail.com"
               className="px-8 py-4 bg-primary text-primary-foreground tracking-wide text-sm hover:opacity-90 transition-opacity"
             >
-              natasha@nkdesign.io
+              kollernatasha@gmail.com
             </a>
             <a
               href="https://www.linkedin.com/in/natashakoller"
