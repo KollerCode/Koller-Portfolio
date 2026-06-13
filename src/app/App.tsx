@@ -45,7 +45,7 @@ const PROJECTS = [
     title: "Hive Wright Apiary Services Startup",
     category: "Branding & Identity · Product Design · UI/UX Engineering",
     year: "2026",
-    desc: "Built a luxury product brand for a startup company. It included market research, color exploration, and logo monogram experimentation. Once brand was identified physical labels created and full scale responsive web design.",
+    desc: "Full brand identity for an Apiary Service catered to the luxury hotel market. Logo, type system, color palette, brand guidelines, and print collateral including labels for the honey samples. Currently working on web development target GTM December 2026",
     tags: ["React", "Figma Make", "Logo", "Branding", "Typography"],
     img: "src/assets/HW-promo.png",
   },
@@ -58,12 +58,12 @@ const PROJECTS = [
     img: "src/assets/tideturners.png",
   },
   {
-    title: "Solstice Brand Identity",
-    category: "Branding & Identity",
-    year: "2023",
-    desc: "Full brand identity for a boutique wellness studio. Logo, type system, color palette, brand guidelines, and print collateral.",
-    tags: ["Logo", "Brand System", "Typography", "Print"],
-    img: "https://images.unsplash.com/photo-1597979732130-9d2ad18df38b?w=800&h=500&fit=crop&auto=format",
+    title: "SaaS FinTech Corporate Website Design & Development",
+    category: "UI/UX Engineering · AI Design · Angular",
+    year: "2022 - 2026",
+    desc: "Led UX/UI design and front-end implementation for key marketing and product-focused web experiences, including solution pages, AI-focused content, and platform feature presentations.",
+    tags: ["Marketing Collateral", "Wireframe Designing", "Angular", "Brand Identity"],
+    img: "src/assets/rp.png",
   },
 ];
 
