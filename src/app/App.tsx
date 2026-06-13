@@ -43,7 +43,7 @@ const SKILLS = [
 const PROJECTS = [
   {
     title: "Hive Wright Apiary Services Startup",
-    category: "Brand and product design, full service",
+    category: "Branding & Identity · Product Design · UI/UX Engineering",
     year: "2026",
     desc: "Built a luxury product brand for a startup company. It included market research, color exploration, and logo monogram experimentation. Once brand was identified physical labels created and full scale responsive web design.",
     tags: ["React", "Figma Make", "Logo", "Branding", "Typography"],
@@ -51,7 +51,7 @@ const PROJECTS = [
   },
   {
     title: "Tideturners Redesign",
-    category: "UI/UX Design · AI-Assisted",
+    category: "UI/UX Engineering · Branding & Identity",
     year: "2025",
     desc: "Developed foundational design system components in 2024 and enhanced the Available Games experience by implementing a toggle that allows users to easily switch between this company’s latest releases and featured game titles.",
     tags: ["Figma", "ChatGPT", "React"],
